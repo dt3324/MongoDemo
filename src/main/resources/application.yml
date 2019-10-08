@@ -1,0 +1,20 @@
+server:
+  port: 3324
+mongo:
+  ip: 192.168.99.14
+  port: 27017
+  username: root
+  password: gb.2312
+  cluster-db: admin
+  # 集群
+#  cluster-username: root
+#  cluster-password: gb.2312
+#  cluster-db: admin
+#  cluster-hosts:
+#  - ip: 192.168.99.14
+#    port: 27017
+#  - ip: 192.168.99.15
+#    port: 27017
+#  - ip: 192.168.99.16
+#    port: 27017
+   # 可自行按以上格式添加集群服务器 // 注意符号 - 和缩进
